@@ -1,6 +1,6 @@
 {
   "name": "shutdown",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Graceful shutdown with run-level like stages",
   "main": "index.js",
   "scripts": {
