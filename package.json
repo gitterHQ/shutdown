@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/gitterHQ/shutdown",
   "dependencies": {
-    "async": "^0.9.0",
-    "debug": "^1.0.2"
+    "async": "^2.3.0",
+    "debug": "^2.6.4"
   },
   "devDependencies": {
-    "mocha": "^1.18.2",
-    "retire": "^0.2.1"
+    "mocha": "^3.3.0",
+    "retire": "^1.2.13"
   }
 }
