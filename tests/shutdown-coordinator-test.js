@@ -1,6 +1,4 @@
-/*jshint node:true, unused: true */
-/*global describe:true, it: true */
-"use strict";
+'use strict';
 
 var ShutdownCoordinator = require('../lib/shutdown-coordinator');
 var assert = require('assert');
@@ -93,12 +91,9 @@ describe('shutdown-coordinator', function() {
       setTimeout(callback, 1);
     });
 
-    var start = Date.now();
-
     underTest.shutdownGracefully(function(err) {
-      console.log(Date.now() - start);
-      // assert(!err);
-      // assert.strictEqual(10, lastCalled);
+      assert(!err);
+      assert.strictEqual(10, lastCalled);
       done();
     });
 

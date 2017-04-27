@@ -4,10 +4,13 @@ npm:
 	npm prune
 	npm install
 
-validate: npm security-check
+validate: npm lint security-check
 
 test:
 	npm test
+
+lint:
+	npm run lint
 
 security-check:
 	./node_modules/.bin/retire -n

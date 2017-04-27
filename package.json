@@ -4,7 +4,8 @@
   "description": "Graceful shutdown with run-level like stages",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec tests/"
+    "test": "mocha -R spec tests/",
+    "lint": "eslint --format unix ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "debug": "^2.6.4"
   },
   "devDependencies": {
+    "eslint": "^3.19.0",
     "mocha": "^3.3.0",
     "retire": "^1.2.13"
   }

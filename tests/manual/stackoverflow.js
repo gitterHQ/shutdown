@@ -1,3 +1,5 @@
+/*eslint no-console: off */
+
 var shutdown = require('../..');
 shutdown.addHandler('two', 2, function(cb) {
   console.log('two');
